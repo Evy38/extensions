@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 40px 80px;
+    background: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+    font-family: "Noto Sans";
+  
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: hsl(200, 60%, 99%);
+    border-radius: 15px;
+    box-shadow: 0px 1px 10px  hsl(0, 0%, 85%);
+    align-items: center;
+    margin-bottom: 10px;
+   
+}
+
+.header1 img{
+width: 90px;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.dn{
+    padding:5px;
+    background-color: hsl(0, 0%, 93%);
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+    align-items: center;
+  height: fit-content;
+}
+.dn:hover{
+    background-color: hsl(0, 0%, 78%);
+    cursor: pointer;
+}
+.dn img{
+    width: 15px;
+    height: 15px;
+}
+
+button{
+    padding: 4px 8px;
+    border-radius:  20px;
+    background-color:hsl(200, 60%, 99%);
+    border: none;
+    font-family: "Noto";
+    font-weight: 500;
+    font-size: 15px;
+    border: 0.5px solid hsl(0, 0%, 78%);
+}
+
+
+.header2 button:hover{
+    background-color: hsl(0, 0%, 93%) ;
+    color: hsl(226, 11%, 37%);
+    cursor: pointer;
+}
+
+    
