@@ -25,18 +25,23 @@
 </head>
 
 <body>
-  <header>
+  <header class="header1">
 
     <img src="assets/images/logo.svg" alt="logo Extension">
-    <img src="assets/images/icon-moon.svg" alt="nuit">
-
+    <div class="dn">
+      <img src="assets/images/icon-moon.svg" alt="nuit">
+    </div>
   </header>
-  <section>
-    Extensions List
 
-    All
-    Active
-    Inactive
+  <section>
+    <header class="header2">
+      <h1>Extensions List</h1>
+      <div class="buttons">
+        <button class="btnAll">All</button>
+        <button class="btnActive">Active</button>
+        <button class="btnInactive">Inactive</button>
+      </div>
+    </header>
 
     <!-- If you plan to use the JSON file to populate the data dynamically, you can delete the content below -->
     <div id="extension-grid">
