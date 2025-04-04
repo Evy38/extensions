@@ -1,3 +1,29 @@
+:root {
+    --color-neutral-900: hsl(227, 75%, 14%);
+    --color-neutral-800: hsl(226, 25%, 17%);
+    --color-neutral-700: hsl(225, 23%, 24%);
+    --color-neutral-600: hsl(226, 11%, 37%);
+    --color-neutral-300: hsl(0, 0%, 78%);
+    --color-neutral-200: hsl(217, 61%, 90%);
+    --color-neutral-100: hsl(0, 0%, 93%);
+    --color-neutral-0: hsl(200, 60%, 99%);
+
+    --color-font-base-light-mode: hsl(225, 23%, 24%);
+    --color-font-description-light-mode: hsl(226, 11%, 37%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--color-font-base-light-mode);
+}
+
 div#extension-grid {
     width: 100%;
     display: grid;
@@ -5,3 +31,51 @@ div#extension-grid {
     grid-auto-rows: 1fr;
     gap: .5rem;
 }
+
+article {
+    border-radius: 1rem;
+    border: 1px solid var(--color-neutral-300);
+    padding: 1rem;
+    background-color: var(--color-neutral-0);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+article .description {
+    display: flex;
+    gap: .5rem;
+}
+
+article .description p {
+    color: var(--color-font-description-light-mode);
+}
+
+article .description .text {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+article .image-wrapper {
+    width: 60px;
+    height: 60px;
+}
+
+article .image-wrapper img {
+    object-fit: cover;
+    width: 100%;
+}
+
+article .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* article button {
+    border-radius: 1rem;
+    border: 1px solid var(--color-neutral-0);
+    padding: .5rem 1rem;
+    background: none;
+    color: var(--color-font-base-light-mode);
+} */
