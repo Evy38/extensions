@@ -85,7 +85,11 @@ button {
     color: hsl(226, 11%, 37%);
     cursor: pointer;
 }
-
+.actions button:hover{
+    background-color: hsl(0, 0%, 93%);
+    color: hsl(226, 11%, 37%);
+    cursor: pointer;
+}
 h2 {
     font-size: 1.5rem;
     color: var(--color-font-base-light-mode);
